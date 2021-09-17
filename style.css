@@ -971,6 +971,7 @@ a.course-btn{
 @media screen and (max-width: 800px){
     .image-section img{
         max-width: 90%;
+        height: 250px;
         display: flex;
         display: inline-block;
         margin:0 auto;
