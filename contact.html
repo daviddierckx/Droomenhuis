@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DROOM EN HUIS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/508de3a2d1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html" class="logo">
+                <h3>DROOM EN HUIS</h3>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="gallerij.html">GALLERIJ</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>CONTACTEER ONS</h1>
+    </section>
+    <section>
+
+    </section>
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2494.3966957939533!2d4.565033615649045!3d51.303825579602126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c406d9a08d2e73%3A0x7f06b51175dd5bce!2sSint-Job-in-&#39;t-Goor%20Kruispunt!5e0!3m2!1sen!2snl!4v1631803879273!5m2!1sen!2snl"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Sint job</h5>
+                        <p>2960 Sint job</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+3295 3456 3923</h5>
+                        <p>Alle dagen en uurtijden beschikbaar.</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>droomenhuis@support.com</h5>
+                        <p>Aarzel niet om ons te mailen indien u vragen hebt.</p>
+                    </span>
+                </div>
+            </div>
+            <p></p>
+            <div class="contact-col">
+                <form action="form-handler.php" method="POST">
+                    <input type="text" name="name" placeholder="Typ uw naam" required>
+                    <input type="email" name="email" placeholder="Typ uw email adres" required>
+                    <input type="text" name="subject" placeholder="Typ uw onderwerp" required>
+                    <textarea rows="8" name="message" placeholder="Bericht..." required></textarea>
+                    <button type="submit" class="hero-btn2 yel-btn">Verzend bericht</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer2">
+
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() { navLinks.style.right = "0"; }
+        function hideMenu() { navLinks.style.right = "-200px"; }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "ETHEM_WEBSITE",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5502
+	}
+}
