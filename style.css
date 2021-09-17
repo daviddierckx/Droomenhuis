@@ -1013,7 +1013,6 @@ a.course-btn{
 .image-section img{
 	width: 90%;
     display: flex;
-	height: auto;
 	display: inline-block;
 	margin:0 auto;
 }
